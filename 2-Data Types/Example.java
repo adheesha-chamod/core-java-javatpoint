@@ -1,6 +1,3 @@
-/**
- * InnerExample
- */
 class Sample {
 
     boolean bool;
@@ -14,6 +11,8 @@ class Sample {
 
     float f;
     double d;
+
+    String str;
 }
 
 public class Example {
@@ -29,5 +28,7 @@ public class Example {
         System.out.println(sample.l);       // 0
         System.out.println(sample.f);       // 0.0
         System.out.println(sample.d);       // 0.0
+
+        System.out.println(sample.str);     // null
     }
 }
